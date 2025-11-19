@@ -30,6 +30,7 @@ main .bild{
     display: flex;
     flex-direction: column;
     justify-self: center;
+    text-align: center;
 }
 
 main .bild img{
