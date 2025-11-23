@@ -13,7 +13,7 @@ header{
 
 aside{
     display:grid;
-    grid-template-rows: 5vh 35vh 5vh;
+    grid-template-rows: 5vh 15vh 5vh;
     grid-column:1;
     grid-row:2;
 }
@@ -26,14 +26,14 @@ main{
     grid-row:2;
 }
 
-main .bild{
+main {
     display: flex;
     flex-direction: column;
     justify-self: center;
     text-align: center;
 }
 
-main .bild img{
+main td img{
     width:175px;
     height:auto;
 }
