@@ -2,6 +2,7 @@ body{
     display:grid;
     grid-template-columns: 1fr 7fr;
     grid-template-rows: 10vh 120vh 10vh;
+    margin:0px;
 }
 
 header{
@@ -10,16 +11,14 @@ header{
     grid-row:1;
     text-align: center;
     background-color: aliceblue;
-    border-radius: 30px;
 }
 
 aside{
     display:grid;
     grid-template-rows: 5vh 35vh 5vh;
     grid-column:1;
-    grid-row:2;
+    grid-row:2/4;
     background-color: aliceblue;
-    border-radius: 30px;
 }
 
 main{
@@ -36,8 +35,10 @@ justify-content: space-evenly;
 }
 
 main td img{
-    width:320px;
-    height:auto;
+    width:210px;
+    height:210px;
+    border:solid 5px red;
+    object-fit: cover;
 }
 
 footer{
