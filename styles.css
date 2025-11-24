@@ -9,6 +9,8 @@ header{
     grid-column: 1/3;
     grid-row:1;
     text-align: center;
+    background-color: aliceblue;
+    border-radius: 30px;
 }
 
 aside{
@@ -16,21 +18,21 @@ aside{
     grid-template-rows: 5vh 35vh 5vh;
     grid-column:1;
     grid-row:2;
+    background-color: aliceblue;
+    border-radius: 30px;
 }
 
 main{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40vh;
-    grid-column:2;
-    grid-row:2;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    text-align: center;
+#beskrivning{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
 }
 
 main td img{
