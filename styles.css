@@ -1,7 +1,7 @@
 body{
     display:grid;
     grid-template-columns: 1fr 7fr;
-    grid-template-rows: 10vh 120vh 10vh;
+    grid-template-rows: 10vh 130vh 10vh;
     margin:0px;
 }
 
